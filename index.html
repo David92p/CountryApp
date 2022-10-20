@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather:ital,wght@1,300;1,400&family=Roboto+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Countries-App</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="menu">
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About</a>
+        </div>
+        <div class="title">
+            <h1>COUNTRIES APP</h1>
+        </div>
+        <div class="research">
+            <label for="search"></label>
+            <input type="text" id="search" name="search" placeholder="insert your country..." class="input" maxlength="20">
+            <input type="button" class="btn" value="Search" id="btn">
+        </div>
+    </header>
+
+    <main class="main" id="main">
+        <div class="container-img">
+            <img src="" alt="COUNTRY FLAG" id="img">
+            <p id="name-flag"></p>
+        </div>
+        <div class="container-description" id="description-country">
+            <ul></ul>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
